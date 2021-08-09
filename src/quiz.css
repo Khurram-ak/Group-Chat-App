@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 120px;
+    background-color: rgb(70, 27, 27);
+    padding: 10px;
+    color: white;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+
+}
+.box{
+    padding: 0px 15px;
+    height: 500px;
+    width: 550px;
+    border: 4px solid rgb(70, 27, 27);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextBtn{
+    height: auto;
+    width: auto;
+    border-radius: 0px;
+    color: white;
+    border: 4px solid black;
+    outline: none;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: 'Roboto', cursive;
+    background-color: rgb(70, 27, 27);
+
+}
+.end{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.end p{
+    line-height: 2px;
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(70, 27, 27) ;
+    font-family: 'Shadows Into Light', cursive;
+}
+.selectBox{
+    background-color: rgb(121, 65, 65);
+}

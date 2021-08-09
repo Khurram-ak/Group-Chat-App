@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bgImgSignUP {
+    background-image: url("../../images/mainbg.jpg");
+    height: 110vh ;
+    width: 100%;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+}
+
+.navbar i {
+    padding: 12px;
+    flex: 1;
+    margin-top: 5px;
+    color: #f0ad05;
+    font-size: 50px;
+}
+
+#inputBox {
+    width: 100%;
+    border: 3px solid rgb(143, 137, 137);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 8px 56px rgb(149, 137, 137);
+    padding: 60px 40px;
+    border-radius: 6px;
+}
+
+button {
+    background-color: #ffbc12;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 12px 5px;
+    font-size: 16px;
+    width: 90px;
+    height: 50px;
+    font-family: "Roboto";
+}
+
+button:active {
+    color: white;
+    background-color: #af8009;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 12px 5px;
+    font-size: 16px;
+    width: 90px;
+    height: 50px;
+    font-family: "Roboto";
+}
+
+.navbar button {
+    background-color: #ffbc12;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 12px 5px;
+    font-size: 16px;
+    width: 90px;
+    height: 50px;
+    font-family: "Roboto";
+}
+
+Label {
+    margin-top: 3px !important;
+    font-size: 18px;
+    padding-left: 5px;
+    font-family: "roboto";
+}
+
+p {
+    font-size: 22px;
+    font-family: "roboto";
+}
+
+h2 {
+    font-family: "roboto";
+}
+
+#Input {
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-bottom: 4px solid #ffbc12;
+    padding: 12px !important;
+}
+
+@media screen and (max-width: 1100px) {
+    #bgImgSignUP {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #bgImgSignUP {
+        height: 1400px;
+    }   
+}

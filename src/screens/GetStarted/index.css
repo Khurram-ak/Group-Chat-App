@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bgImgStart {
+    background-image: url("../../images/mainbg.jpg");
+    height: 100vh ;
+    width: 100%;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+}
+
+.navbar i {
+    padding: 12px;
+    flex: 1;
+    margin-top: 5px;
+    color: #f0ad05;
+    font-size: 50px;
+}
+
+button:active{
+    color: white;
+    background-color: #af8009;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 12px 5px;
+    font-size: 16px;
+    width: auto;
+    height: 50px;
+    font-family: "Roboto";
+}
+.navbar button {
+    background-color: #ffbc12;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 12px 5px;
+    font-size: 16px;
+    width: 90px;
+    height: 50px;
+    font-family: "Roboto";
+}
+
+#body {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+
+.mainBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.mainBox img {
+    width: 70%;
+
+}
+#row{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.textBox {
+    width: 100%;
+    border: 3px solid rgb(143, 137, 137);
+    display: flex;
+    flex-direction: column;
+    box-shadow:7px 8px 56px rgb(149, 137 ,137);
+    padding:60px 40px;
+    border-radius: 6px;}
+.textBox p{
+    font-size: 19px;
+    font-family: "roboto";
+}
+.textBox h1{
+    font-size: 28px;
+    font-weight: 800 !important;
+    font-family: "roboto";
+}
+.textBox i{
+    /* padding-top: 3px; */
+    width: 25px;
+    /* font-size: 20px !important; */
+}
+.textBox button{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 12px 5px;
+    /* font-size: 25px; */
+    width: 120px;
+    height: 50px;
+    background-color: #ffbc12;
+    font-family: "Roboto";
+}
+
+.textBox button:active{
+    color: white;
+    background-color: #af8009;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 12px 5px;
+    font-size: 16px;
+    width: 120px;
+    height: 50px;
+    font-family: "Roboto";
+}
+@media screen and (max-width: 1000px) {
+    #bgImgStart{
+        height: 130vh !important;
+    }
+    
+  }
+@media screen and (max-width: 770px) {
+    #bgImgStart{
+        height: 170vh !important;
+    }
+    
+  }

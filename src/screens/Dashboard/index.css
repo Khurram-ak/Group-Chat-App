@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "roboto" !important; */
+}
+
+#bgImgDash {
+    background-image: url("../../images/mainbg.jpg");
+    height: 1100px;
+    width: 100%;
+}
+
+.spinner {
+    height: 100px !important;
+    font-size: 28px;
+    width: 100px;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+}
+
+.navbar i {
+    padding: 12px;
+    flex: 1;
+    margin-top: 5px;
+    color: #f0ad05;
+    font-size: 50px;
+}
+
+.profilePic {
+    /* border-radius: 50%; */
+    height: 100%;
+}
+
+.imgDiv {
+    border: 3px solid #f0ad05;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    width: 155px;
+    height: 155px;
+}
+.msgImgDiv {
+   border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.userInfo {
+    font-family: "roboto";
+    /* padding-left: 25px; */
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about span {
+    font-family: "roboto";
+    font-size: 18px;
+}
+
+.about h1 {
+    font-family: "roboto";
+}
+
+.file {
+    display: none;
+}
+
+.messageBox {
+    height: 27rem;
+    width: 100%;
+    border: 4px solid rgb(59, 57, 57);
+    background-color: rgb(165, 159, 159);
+    box-shadow: 0px 1px 112px black;
+    border-radius: 25px;
+    /* width: 80%; */
+}
+#name{
+    font-size: 17px;
+    color: rgb(90, 88, 84);
+}
+
+.chatBox {
+    margin: -4px auto;
+    height: 27rem;
+    border: 4px solid rgb(59, 57, 57);
+    background-color: rgb(165, 159, 159) !important;
+    width: 85%;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid blue; */
+}
+
+.chatBox li {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.inputField {
+    height: 4rem;
+    border-radius: 7px;
+}
+
+#exampleEmail{
+    /* display: inline; */
+    flex: 1;
+    padding: 10px;
+    text-decoration: none;
+    outline: none;
+}
+
+.message {
+    margin: 5px;
+    /* height: 3rem; */
+    max-width: 400px;
+    display: inline-block;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.messageWrap {
+    display: flex;
+    padding: 0px 5px;
+    width: 100%;
+}
+.messageWrap2 {
+    padding: 0px 5px;
+    width: 100%;
+}
+
+.myMsg {
+    color: white;
+    margin: 5px;
+    overflow: hidden;
+    max-width: 400px;
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(82, 71, 71);
+    border-radius: 10px;
+    float: right;
+}
+
+@media screen and (max-width:700px) {
+    .about {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    #bgImgDash{
+        height: 1200px;
+    }
+}
+@media screen and (max-width:400px) {
+       #sendBtn{
+           width: 250px;
+       } 
+
+}
+@media screen and (max-width:600px) {
+       #sendBtn{
+           width: 450px;
+       } 
+
+}
+@media screen and (max-width:800px) {
+       #sendBtn{
+           width: 650px;
+       } 
+
+}
+@media screen and (max-width:1000px) {
+       #sendBtn{
+           width: 850px;
+       } 
+    }
+@media screen and (max-width:1200px) {
+       #sendBtn{
+           width: 1050px;
+       } 
+    }
+    
